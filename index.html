@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aravind - Web Developer</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">Aravind.com</div>
+  <div class="menu-toggle" onclick="toggleMenu()">
+    &#9776;
+  </div>
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#contact" class="contact-btn">Contact Me</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-image">
+    <img src="/assets/Aravind_N-removebg-preview.png" alt="Aravind Photo">
+  </div>
+  <div class="hero-text">
+    <h1>Hello, I’m <span>Aravind</span></h1>
+    <h2>Web Developer</h2>
+    <p>A passionate web developer with a relentless drive for transforming ideas into not just websites, but digital experiences that captivate and resonate. In the realm of coding, I’ve discovered the art of crafting not just lines of code, but intricate digital landscapes that blend beauty with functionality.</p>
+    <p>Let’s create something remarkable together.</p>
+    <div class="buttons">
+      <a href="#contact" class="btn">Contact Me</a>
+      <a href="" class="btn-outline" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<div class="ticker">
+  <div class="track">
+    <div class="content">&nbsp;Innovative &nbsp;•&nbsp; Creative &nbsp;•&nbsp; Web Developer &nbsp;•&nbsp; Passionate &nbsp;•&nbsp; Innovative &nbsp;•&nbsp; Creative &nbsp;•&nbsp; Web Developer &nbsp;•&nbsp; Passionate </div>
+  </div>
+</div>
+
+<section class="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <div class="about-img">
+      <img src="/assets/Web Developer.png" alt="Field of Interest">
+    </div>
+    <div class="about-text">
+      <p>Hey there! I’m Aravind, a self-taught web developer based in India. My journey into the world of coding started with a deep curiosity to learn how websites work...</p>
+    </div>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>What I Do</h2>
+  <div class="skills-grid">
+    <div class="card">
+      <img src="/assets/HTML, CSS, JAVASCRIPT.png" alt="Frontend Icons">
+      <p>Front-End Development</p>
+    </div>
+    <div class="card">
+      <img src="/assets/NodeJS, React JS.png" alt="Backend Icon">
+      <p>Back-End Development</p>
+    </div>
+    <div class="card">
+      <img src="/assets/GitHub, Git.png" alt="Version Control Icon">
+      <p>Version Control</p>
+    </div>
+    <div class="card">
+      <img src="/assets/MySQL,MongoDB.png" alt="Database Icon">
+      <p>Database Management</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Get in Touch</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="text" placeholder="Last Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="tel" placeholder="Phone Number">
+    <textarea placeholder="Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>Aravind.com • All Rights Reserved</p>
+</footer>
+
+<script>
+  function toggleMenu() {
+    const nav = document.getElementById("nav-menu");
+    nav.classList.toggle("active");
+  }
+</script>
+
+</body>
+</html>
