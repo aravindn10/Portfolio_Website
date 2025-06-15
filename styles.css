@@ -303,8 +303,8 @@ footer {
   .hero-image {
     text-align: center;
     box-sizing: border-box;
-    outline: 2px solid white; /* ✅ White outline */
-    outline-offset: -2px;     /* ✅ Keeps the box same size */
+    outline: 2px solid white;
+    outline-offset: -2px;     
   }
 
   .about-content {
